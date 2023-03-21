@@ -1,10 +1,9 @@
 import MainLayout from '@/components/layouts/MainLayout'
 
-
-export default function Home() {
+export default function Contact() {
   return (
     <MainLayout>
-      <h1>Index nuevo</h1>
+      <h1>Contact nuevo</h1>
     </MainLayout>
   )
 }

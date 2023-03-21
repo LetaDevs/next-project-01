@@ -1,10 +1,9 @@
 import MainLayout from '@/components/layouts/MainLayout'
 
-
-export default function Home() {
+export default function Pricing() {
   return (
     <MainLayout>
-      <h1>Index nuevo</h1>
+      <h1>Pricing</h1>
     </MainLayout>
   )
 }
