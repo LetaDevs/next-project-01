@@ -1,8 +1,13 @@
 import Head from 'next/head';
+import React, { FC } from 'react';
 import { Navbar } from '../Navbar';
 import styles from './MainLayout.module.css';
 
-export default function MainLayout({children}) {
+interface Props {
+  children: React.ReactNode
+}
+
+const MainLayout = ({children}: Props) => {
 
   return (
     <>
@@ -21,3 +26,5 @@ export default function MainLayout({children}) {
     </>
   )
 }
+
+export default MainLayout;
